@@ -1,0 +1,29 @@
+{
+  "name": "@blockware/sdk-proxy-route",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockwarecom/sdk-nodejs-proxy-route.git"
+  },
+  "keywords": [
+    "blockware"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blockwarecom/sdk-nodejs-proxy-route/issues"
+  },
+  "homepage": "https://github.com/blockwarecom/sdk-nodejs-proxy-route#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "express-http-proxy": "1.6.0"
+  },
+  "peerDependencies": {
+    "@blockware/sdk-config": "0.0.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2"
+  }
+}

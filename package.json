@@ -1,9 +1,8 @@
 {
   "name": "@blockware/sdk-proxy-route",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "",
   "main": "index.js",
-  "types": "index.d.ts",
   "private": false,
   "publishConfig": {
     "access": "public"

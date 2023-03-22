@@ -2,7 +2,7 @@ const URL = require('url');
 const Path = require('path');
 const express = require('express');
 const proxy = require('express-http-proxy');
-const Config = require('@blockware/sdk-config');
+const Config = require('@kapeta/sdk-config');
 
 const SERVICE_TYPE = 'web';
 

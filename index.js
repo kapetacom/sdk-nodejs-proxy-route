@@ -4,14 +4,15 @@ const express = require('express');
 const proxy = require('express-http-proxy');
 const Config = require('@kapeta/sdk-config');
 
-const SERVICE_TYPE = 'web';
+const DEFAULT_SERVICE_TYPE = 'web';
 
 class ProxyRoute  {
 
-    constructor(name, path) {
+    constructor(name, path, serviceType) {
 
         this._name = name;
         this._path = path;
+        this._serviceType = serviceType ?? DEFAULT_SERVICE_TYPE;
         this._targetUrl = "http://" + name.toLowerCase();
         this._ready = false;
         this._router = new express.Router();
@@ -28,7 +29,7 @@ class ProxyRoute  {
      * @return {Promise<void>}
      */
     async init(provider) {
-        this._targetUrl = await provider.getServiceAddress(this._name, SERVICE_TYPE);
+        this._targetUrl = await provider.getServiceAddress(this._name, this._serviceType);
         this._ready = true;
 
         if (!this._targetUrl.endsWith('/')) {

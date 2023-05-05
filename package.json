@@ -1,6 +1,6 @@
 {
   "name": "@kapeta/sdk-proxy-route",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "",
   "main": "index.js",
   "private": false,

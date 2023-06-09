@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/kapetacom/sdk-nodejs-proxy-route/compare/v1.0.0...v1.0.1) (2023-06-09)
+
+
+### Bug Fixes
+
+* Support mixed modules ([77956ea](https://github.com/kapetacom/sdk-nodejs-proxy-route/commit/77956eafec2f16bb51ba40dd80bb3c419092ce34))
+
 # 1.0.0 (2023-06-09)
 
 

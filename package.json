@@ -1,6 +1,6 @@
 {
     "name": "@kapeta/sdk-proxy-route",
-    "version": "0.0.14",
+    "version": "1.0.0",
     "description": "Proxy route for Kapeta SDK",
     "type": "module",
     "exports": {

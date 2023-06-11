@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/kapetacom/sdk-nodejs-proxy-route/compare/v1.0.1...v1.0.2) (2023-06-11)
+
+
+### Bug Fixes
+
+* Default to commonjs ([5f2c3be](https://github.com/kapetacom/sdk-nodejs-proxy-route/commit/5f2c3be5cdf96b7e17b20defa9b804daaff900aa))
+
 ## [1.0.1](https://github.com/kapetacom/sdk-nodejs-proxy-route/compare/v1.0.0...v1.0.1) (2023-06-09)
 
 

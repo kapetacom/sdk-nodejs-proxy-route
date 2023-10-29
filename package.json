@@ -29,6 +29,11 @@
         "kapeta"
     ],
     "license": "MIT",
+    "author": {
+        "email": "engineering@kapeta.com",
+        "name": "Kapeta",
+        "url": "https://kapeta.com"
+    },
     "bugs": {
         "url": "https://github.com/kapetacom/sdk-nodejs-proxy-route/issues"
     },

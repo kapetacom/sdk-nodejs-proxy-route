@@ -78,10 +78,10 @@
         "express-http-proxy": "1.6.0"
     },
     "peerDependencies": {
-        "@kapeta/sdk-config": "<2"
+        "@kapeta/sdk-config": "^2"
     },
     "devDependencies": {
-        "@kapeta/sdk-config": "<2",
+        "@kapeta/sdk-config": "^2",
         "@types/express": "^4.17.2",
         "@types/express-http-proxy": "^1.6.3",
         "@kapeta/eslint-config": "^0.6.0",

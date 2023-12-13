@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/kapetacom/sdk-nodejs-proxy-route/compare/v1.1.0...v2.0.0) (2023-12-13)
+
+
+### Features
+
+* Bump to 2 ([14af00c](https://github.com/kapetacom/sdk-nodejs-proxy-route/commit/14af00c17014e872200561c594867c2336056bce))
+
+
+### BREAKING CHANGES
+
+* Bump to v2
+
 # [1.1.0](https://github.com/kapetacom/sdk-nodejs-proxy-route/compare/v1.0.2...v1.1.0) (2023-12-13)
 
 

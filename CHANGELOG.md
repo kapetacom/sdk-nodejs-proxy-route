@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/kapetacom/sdk-nodejs-proxy-route/compare/v1.0.2...v1.1.0) (2023-12-13)
+
+
+### Features
+
+* Refactor to use plain express routes ([#4](https://github.com/kapetacom/sdk-nodejs-proxy-route/issues/4)) ([3482596](https://github.com/kapetacom/sdk-nodejs-proxy-route/commit/34825962fb55296e201eaa5814a3abe1b9eb01f6))
+
 ## [1.0.2](https://github.com/kapetacom/sdk-nodejs-proxy-route/compare/v1.0.1...v1.0.2) (2023-06-11)
 
 

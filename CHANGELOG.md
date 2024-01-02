@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/kapetacom/sdk-nodejs-proxy-route/compare/v2.0.0...v2.0.1) (2024-01-02)
+
+
+### Bug Fixes
+
+* Remove connection header from request ([#5](https://github.com/kapetacom/sdk-nodejs-proxy-route/issues/5)) ([f0a146c](https://github.com/kapetacom/sdk-nodejs-proxy-route/commit/f0a146c16496877c493fc0dd0fdd6009d14bd45d))
+
 # [2.0.0](https://github.com/kapetacom/sdk-nodejs-proxy-route/compare/v1.1.0...v2.0.0) (2023-12-13)
 
 

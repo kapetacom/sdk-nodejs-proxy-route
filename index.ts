@@ -35,11 +35,6 @@ export const createProxyRoute = async (
         limit: '1000mb',
         preserveHostHdr: false,
         parseReqBody: false,
-        memoizeHost: false,
-        proxyErrorHandler: function (err, res, next) {
-            console.error('Proxy error: %s', err.message);
-            next(err);
-        },
         proxyReqOptDecorator: function (proxyReqOpts, srcReq) {
             if (proxyReqOpts.headers) {
                 delete proxyReqOpts.headers['connection'];

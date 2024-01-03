@@ -44,7 +44,7 @@ export const createProxyRoute = async (
 
             const out = Path.join(urlParts.pathname, path) + (query ? '?' + query : '');
 
-            console.log('Proxy request to %s > %s', req.url, out);
+            console.log('Proxy request to %s %s > %s', req.method, req.url, out);
 
             return out;
         },

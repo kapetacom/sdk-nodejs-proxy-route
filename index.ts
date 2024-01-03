@@ -33,8 +33,6 @@ export const createProxyRoute = async (
         https: urlParts.protocol === 'https',
         timeout: 120000,
         limit: '1000mb',
-        preserveHostHdr: false,
-        parseReqBody: false,
         proxyReqOptDecorator: function (proxyReqOpts, srcReq) {
             if (proxyReqOpts.headers) {
                 delete proxyReqOpts.headers['connection'];
@@ -46,7 +44,7 @@ export const createProxyRoute = async (
 
             const out = Path.join(urlParts.pathname, path) + (query ? '?' + query : '');
 
-            console.log('Proxy request to %s > %s', req.url, out);
+            console.log('Proxy request to %s %s > %s', req.method, req.url, out);
 
             return out;
         },

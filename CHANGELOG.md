@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/kapetacom/sdk-nodejs-proxy-route/compare/v2.0.1...v2.0.2) (2024-01-03)
+
+
+### Bug Fixes
+
+* Proxy issues ([#6](https://github.com/kapetacom/sdk-nodejs-proxy-route/issues/6)) ([595a646](https://github.com/kapetacom/sdk-nodejs-proxy-route/commit/595a646ca5b699b6744911ae9ad10f312f42ac20))
+
 ## [2.0.1](https://github.com/kapetacom/sdk-nodejs-proxy-route/compare/v2.0.0...v2.0.1) (2024-01-02)
 
 

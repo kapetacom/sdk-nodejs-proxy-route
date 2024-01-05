@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/kapetacom/sdk-nodejs-proxy-route/compare/v2.0.2...v2.1.0) (2024-01-05)
+
+
+### Features
+
+* Adds decorator options to proxy route creator ([#7](https://github.com/kapetacom/sdk-nodejs-proxy-route/issues/7)) ([171556d](https://github.com/kapetacom/sdk-nodejs-proxy-route/commit/171556db90918cb51a45ef722f6327614bebcd46))
+
 ## [2.0.2](https://github.com/kapetacom/sdk-nodejs-proxy-route/compare/v2.0.1...v2.0.2) (2024-01-03)
 
 

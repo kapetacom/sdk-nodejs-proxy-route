@@ -59,6 +59,7 @@ export const createProxyRoute = async (
         proxyReqOptDecorator: function (proxyReqOpts, srcReq) {
             if (proxyReqOpts.headers) {
                 delete proxyReqOpts.headers['connection'];
+                delete proxyReqOpts.headers['cookie'];
             }
 
             if (opts?.requestDecorators) {

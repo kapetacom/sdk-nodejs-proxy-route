@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/kapetacom/sdk-nodejs-proxy-route/compare/v2.1.0...v2.1.1) (2024-01-06)
+
+
+### Bug Fixes
+
+* Do not forward cookie ([#8](https://github.com/kapetacom/sdk-nodejs-proxy-route/issues/8)) ([72b3433](https://github.com/kapetacom/sdk-nodejs-proxy-route/commit/72b3433dfeacccbbd657129213b0f2430f433bec))
+
 # [2.1.0](https://github.com/kapetacom/sdk-nodejs-proxy-route/compare/v2.0.2...v2.1.0) (2024-01-05)
 
 
